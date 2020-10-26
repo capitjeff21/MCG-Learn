@@ -3,7 +3,7 @@ using MCGalaxy;
 
 namespace MCGalaxy.Commands.Chatting {
 	public sealed class CmdCry : MessageCmd {
-			public override string name { get { return "High5"; } }
+			public override string name { get { return "Cry"; } }
 			
 			public override void Use(Player p, string message, CommandData data) {
 				TryMessageAction(p, message, "λNICK %Sis crying because of λTARGET", true);
@@ -14,4 +14,3 @@ namespace MCGalaxy.Commands.Chatting {
 			}
 		}
 	}
-
